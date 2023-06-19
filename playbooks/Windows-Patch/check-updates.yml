@@ -1,5 +1,5 @@
 - name: windows server patching
-  hosts: all
+  hosts: Andy-PC
   tasks:
     - name: Check for missing updates
       win_updates:
